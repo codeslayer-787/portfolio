@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(0, 0, 0);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -128,6 +128,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		font-weight: bolder;
 	}
 
 		h2.alt {
@@ -155,7 +156,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight:bolder;
 		color: #666;
 	}
 
@@ -1948,7 +1949,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #7164b8;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1966,7 +1967,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #030303;
 		}
 
 		input[type="button"]:active,
@@ -2032,7 +2033,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #000000 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2042,6 +2043,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 375px;
+		font-weight: bold;
 	}
 
 		#header .top {
@@ -2155,7 +2157,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #7164b8;
 					}
 
 /* Footer */
@@ -2163,7 +2165,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-image: linear-gradient(#161ed0ad, #41484c);
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2204,12 +2206,13 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgb(255, 255, 255);
+				color: white;
+				font-weight: bolder;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: white;
 				}
 
 				#main > section.dark strong {
@@ -2242,11 +2245,11 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-image: linear-gradient(#ddd, #ecf1f1);
+				background-image: linear-gradient(#161ed0ad, #8ebebc);
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-image: linear-gradient(#8ebebc, #161ed0ad);
 			}
 
 /* Wide */
